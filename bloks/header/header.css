@@ -1,0 +1,13 @@
+.header {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding-top: 15px;
+}
+
+@media screen and (min-width: 1280px) {
+  .header {
+    max-width: 1184px;
+  }
+}

@@ -1,0 +1,17 @@
+.place__website {
+  padding-top: 32px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+
+@media screen and (min-width: 768px) {
+  .place__website {
+    display: block;
+    width: 100%;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    padding-top: 0;
+    align-self: flex-end;
+  }
+}

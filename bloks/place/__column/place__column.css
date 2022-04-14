@@ -1,0 +1,28 @@
+.place__column {
+  margin: 0 auto;
+  width: 90%;
+  font-size: 16px;
+  line-height: 1.6;
+  padding-top: 25px;
+}
+
+.place__column:first-child {
+  padding-top: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .place__column {
+    margin: 0;
+    width: 100%;
+  }
+
+  .place__column:first-child {
+    padding-top: 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .place__column {
+    font-size: 18px;
+  }
+}
