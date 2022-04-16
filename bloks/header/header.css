@@ -6,6 +6,12 @@
   padding-top: 15px;
 }
 
+@media screen and (min-width: 768px) {
+  .header {
+      height: 52px;  
+  }
+}
+
 @media screen and (min-width: 1280px) {
   .header {
     max-width: 1184px;

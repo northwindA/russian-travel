@@ -1,8 +1,40 @@
 .cover__overlay {
   transition: background-color 0.5s ease-in-out;
   background-color: rgba(42, 44, 47, 0.3);
+  color: #FFFF;
+  padding: 10% 0;
 }
 
 .cover__overlay:hover {
   background-color: rgba(42, 44, 47, 0.8);
+}
+
+@media screen and (min-width: 410px) {
+  .cover__overlay {
+    padding: 15% 0;
+  }
+}
+
+@media screen and (min-width: 524px) {
+  .cover__overlay {
+    padding: 18% 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .cover__overlay {
+    padding: 15% 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .cover__overlay {
+    padding: 19% 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .cover__overlay {
+    padding: 20% 0;
+  }
 }
